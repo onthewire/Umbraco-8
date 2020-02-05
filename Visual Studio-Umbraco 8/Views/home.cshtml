@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.PublishedModels.Home>
+    @{
+    Layout = "master.cshtml";
+
+    }
+
+    <div style="color: @Model.Dropdown">
+        <h1>@Model.Title </h1>
+        @Model.MainContent
+        <p>Colour is @Model.Dropdown</p>
+
+
+    </div>
+
+
+
